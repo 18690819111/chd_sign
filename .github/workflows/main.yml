@@ -26,7 +26,7 @@ jobs:
 
       - name: Run sign
         env:
-          TOKEN: ${{ secrets.TOKEN }}
+          TOKEN: c_secure_ssl=eWVhaA==; cf_clearance=RVeX_9HIBAy1PxPm8QtTG4VOx3ZQ.M9zsmOpKvS8hMw-1674220741-0-150; c_secure_uid=MTI2Nzk1; c_secure_pass=8ff7f175194bae465ed6eae3d92e624e; c_secure_ssl=eWVhaA==; c_secure_tracker_ssl=eWVhaA==; c_secure_login=bm9wZQ==
           LON: ${{ secrets.LON}}
           LAT: ${{ secrets.LAT}}
           ADDR: ${{ secrets.ADDR}}
